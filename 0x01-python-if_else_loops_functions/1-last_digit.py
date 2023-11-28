@@ -5,6 +5,8 @@ if number > 0:
     last_digit = number % 10
 elif number < 0:
     last_digit = -(number * -1 % 10)
+elif number == 0:
+    last_digit = number
 str = f"Last digit of {number:d} is {last_digit:d}"
 if last_digit == 0:
     print(str + f' and is 0')
