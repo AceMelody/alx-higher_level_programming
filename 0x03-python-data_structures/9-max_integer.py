@@ -1,4 +1,4 @@
-#!/usr/vin/python3
+#!/usr/bin/python3
 def max_integer(my_list = []):
     for m in range(0, len(my_list)):
         for n in range(0, len(my_list)):
