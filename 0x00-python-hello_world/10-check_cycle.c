@@ -16,7 +16,7 @@ int check_cycle(listint_t *list)
 		temp = temp->next;
 	if (temp == NULL)
 		return (0);
-	if (temp == list)
+	if (temp->next == list)
 		return (1);
-	return (EXIT_SUCCESS);
+	return (0);
 }
