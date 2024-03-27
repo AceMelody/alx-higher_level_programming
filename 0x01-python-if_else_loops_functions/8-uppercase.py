@@ -4,6 +4,6 @@ def uppercase(str):
         w = ord(str[v])
         if w >= 97 and w <= 122:
             w = 65 + (97 - w)
-            print("{}".format(chr(w)), end="")
+            print("{:c}".format(w), end="")
         else:
-            print(f"{str[v]}", end="")
+            print("{}".format(w), end="")

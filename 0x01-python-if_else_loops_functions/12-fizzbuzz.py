@@ -6,9 +6,9 @@ def fizzbuzz():
         elif s % 3 == 0:
             print(f"Fizz", end=" ")
         elif s % 5 == 0:
-            if s < 100:
-                print(f"Buzz", end=" ")
-            else:
+            if s == 100:
                 print(f"Buzz")
+            else:
+                print(f"Buzz", end=" ")
         else:
             print(f"{s:d}", end=" ")
